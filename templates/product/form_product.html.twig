@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block header %}{% endblock %}
+
+
+{% block body %}
+
+{{ form_start() }}
+    {{ form_widget() }}
+    <button type="submit">Envoyer</button>
+{{ form_end() }}
+{% endblock %}
